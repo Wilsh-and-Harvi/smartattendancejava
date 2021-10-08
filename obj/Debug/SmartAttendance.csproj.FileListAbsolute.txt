@@ -1,0 +1,100 @@
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\SmartAttendance.exe.config
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\SmartAttendance.exe
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\SmartAttendance.pdb
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\Google.Protobuf.dll
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\Guna.UI.dll
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\MySql.Data.dll
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\System.Buffers.dll
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\System.Memory.dll
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\Zstandard.Net.dll
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\Google.Protobuf.pdb
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\Google.Protobuf.xml
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\MySql.Data.xml
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\System.Buffers.xml
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\System.Memory.xml
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.csproj.AssemblyReference.cache
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.Forms.AddUser.resources
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.Forms.AttendanceDisplay.resources
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.Forms.ListAttendance.resources
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.Forms.Login.resources
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.Forms.MainMenu.resources
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.Forms.UpdateAttendance.resources
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.Properties.Resources.resources
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.csproj.GenerateResource.cache
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.csproj.CoreCompileInputs.cache
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.csproj.CopyComplete
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.exe
+C:\Users\Wilsh & Harvi\source\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.pdb
+D:\SmartAttendance\SmartAttendance\bin\Debug\SmartAttendance.exe.config
+D:\SmartAttendance\SmartAttendance\bin\Debug\SmartAttendance.exe
+D:\SmartAttendance\SmartAttendance\bin\Debug\SmartAttendance.pdb
+D:\SmartAttendance\SmartAttendance\bin\Debug\BouncyCastle.Crypto.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\EntityFramework.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\EntityFramework.SqlServer.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\GMap.NET.Core.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\GMap.NET.WindowsForms.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\GMap.NET.WindowsPresentation.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\Google.Protobuf.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\K4os.Compression.LZ4.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\K4os.Hash.xxHash.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\MultiSelectCombobox.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\MySql.Data.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\Newtonsoft.Json.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\System.Buffers.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\System.Data.SqlClient.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\System.Data.SQLite.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\System.Data.SQLite.EF6.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\System.Data.SQLite.Linq.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\System.Memory.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\System.Numerics.Vectors.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\System.Security.Principal.Windows.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\Ubiety.Dns.Core.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\Zstandard.Net.dll
+D:\SmartAttendance\SmartAttendance\bin\Debug\EntityFramework.xml
+D:\SmartAttendance\SmartAttendance\bin\Debug\EntityFramework.SqlServer.xml
+D:\SmartAttendance\SmartAttendance\bin\Debug\Google.Protobuf.pdb
+D:\SmartAttendance\SmartAttendance\bin\Debug\Google.Protobuf.xml
+D:\SmartAttendance\SmartAttendance\bin\Debug\K4os.Compression.LZ4.xml
+D:\SmartAttendance\SmartAttendance\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\SmartAttendance\SmartAttendance\bin\Debug\K4os.Hash.xxHash.xml
+D:\SmartAttendance\SmartAttendance\bin\Debug\MultiSelectCombobox.pri
+D:\SmartAttendance\SmartAttendance\bin\Debug\MySql.Data.xml
+D:\SmartAttendance\SmartAttendance\bin\Debug\Newtonsoft.Json.xml
+D:\SmartAttendance\SmartAttendance\bin\Debug\System.Buffers.xml
+D:\SmartAttendance\SmartAttendance\bin\Debug\System.Data.SqlClient.xml
+D:\SmartAttendance\SmartAttendance\bin\Debug\System.Data.SQLite.xml
+D:\SmartAttendance\SmartAttendance\bin\Debug\System.Memory.xml
+D:\SmartAttendance\SmartAttendance\bin\Debug\System.Numerics.Vectors.xml
+D:\SmartAttendance\SmartAttendance\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\SmartAttendance\SmartAttendance\bin\Debug\System.Security.Principal.Windows.xml
+D:\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.Forms.AddUser.resources
+D:\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.Forms.AttendanceDisplay.resources
+D:\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.Forms.AttendanceOutin.resources
+D:\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.Forms.EmployeeLoginLogout.resources
+D:\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.Forms.ListAttendance.resources
+D:\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.Forms.LiveLocation.resources
+D:\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.Forms.Login.resources
+D:\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.Forms.MainMenu.resources
+D:\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.Forms.UpdateAttendance.resources
+D:\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.Forms.viewoutofrange.resources
+D:\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.Properties.Resources.resources
+D:\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.csproj.GenerateResource.cache
+D:\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.csproj.CoreCompileInputs.cache
+D:\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.csproj.CopyComplete
+D:\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.exe
+D:\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.pdb
+D:\SmartAttendance\SmartAttendance\obj\Debug\SmartAttendance.csproj.AssemblyReference.cache
