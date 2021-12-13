@@ -58,28 +58,35 @@ public class MacidCheck extends HttpServlet {
 		}
 		else
 		{
-			String status1="";
-			MarkinMarkout f2=new MarkinMarkout();
-			try {
-				status1=f2.checkstatus1(username);
-			} catch (ClassNotFoundException | SQLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			if(status1.equalsIgnoreCase("markin"))
-			{
-				request.setAttribute("button","markin");
-				
-				request.getRequestDispatcher("index.jsp").forward(request, response); 
-				response.sendRedirect("index.jsp");
-			}
-			else if(status1.equalsIgnoreCase("markout"))
-			{
-				request.setAttribute("button","markout");
-				
-				request.getRequestDispatcher("index.jsp").forward(request, response); 
-				response.sendRedirect("index.jsp");
-			}
+test f1=new test();
+			
+			request.setAttribute("myname",f1.GetMacid());
+			
+			request.getRequestDispatcher("index.jsp").forward(request, response); 
+			response.sendRedirect("index.jsp");
+			
+//			String status1="";
+//			MarkinMarkout f2=new MarkinMarkout();
+//			try {
+//				status1=f2.checkstatus1(username);
+//			} catch (ClassNotFoundException | SQLException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//			if(status1.equalsIgnoreCase("markin"))
+//			{
+//				request.setAttribute("button","markin");
+//				
+//				request.getRequestDispatcher("index.jsp").forward(request, response); 
+//				response.sendRedirect("index.jsp");
+//			}
+//			else if(status1.equalsIgnoreCase("markout"))
+//			{
+//				request.setAttribute("button","markout");
+//				
+//				request.getRequestDispatcher("index.jsp").forward(request, response); 
+//				response.sendRedirect("index.jsp");
+//			}
 		}
 	}
 

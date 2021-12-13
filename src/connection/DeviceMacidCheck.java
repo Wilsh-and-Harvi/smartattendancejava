@@ -56,7 +56,7 @@ public class DeviceMacidCheck
 		{
 			username="no";
 		}
-		return "no";
+		return username;
 		
 	}
 

@@ -40,13 +40,7 @@ public class test {
 //        }
 //		 
 //        return ip.getHostAddress();
-//		String ip = "";
-//		try (java.util.Scanner s = new java.util.Scanner(new java.net.URL("http://eth0.me/").openStream(), "UTF-8")
-//			.useDelimiter("\\A")) {
-//		    ip = s.next();
-//		} catch (java.io.IOException e) {
-//		    e.printStackTrace();
-//		}
+		
 		InetAddress my_localhost = null;
 		try {
 			my_localhost = InetAddress.getLocalHost();
@@ -61,11 +55,13 @@ public class test {
 	         BufferedReader my_br = new BufferedReader(new
 	         InputStreamReader(my_url.openStream()));
 	         my_system_address = my_br.readLine().trim();
+	         System.out.println("The IP Address of Mobile is : " + my_system_address);
 	      }
 	      catch (Exception e){
 	         my_system_address = "Cannot Execute Properly";
 	      }
-		return my_system_address;
+	      return my_system_address;
+		
 	}
 	
 
