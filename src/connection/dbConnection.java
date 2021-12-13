@@ -38,8 +38,8 @@ public class dbConnection
 			while(rs.next())
 			{
 				status="yes";
-				username=rs.getString(2);
-				password=rs.getString(5);
+				username=rs.getString(1);
+				password=rs.getString(2);
 				
 			}
 		} catch (SQLException e) {
