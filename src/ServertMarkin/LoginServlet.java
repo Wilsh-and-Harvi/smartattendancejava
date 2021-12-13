@@ -19,7 +19,7 @@ import connection.newEmployee;
  */
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+       public static String username3="";
     /**
      * @see HttpServlet#HttpServlet()
      */
@@ -45,6 +45,7 @@ public class LoginServlet extends HttpServlet {
 		doGet(request, response);
 		String username=request.getParameter("username");
 		String password=request.getParameter("password");
+		username3=username;
 		 dbConnection co=new dbConnection();
 		String status="";
 		

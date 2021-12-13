@@ -10,6 +10,8 @@ import java.net.UnknownHostException;
 import java.nio.charset.Charset;
 import java.util.Random;
 
+import ServertMarkin.LoginServlet;
+
 public class test {
 	public String GetMacid()
 	{
@@ -41,26 +43,28 @@ public class test {
 //		 
 //        return ip.getHostAddress();
 		
-		InetAddress my_localhost = null;
-		try {
-			my_localhost = InetAddress.getLocalHost();
-		} catch (UnknownHostException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-	      System.out.println("The IP Address of client is : " + (my_localhost.getHostAddress()).trim());
-	      String my_system_address = "";
-	      try{
-	         URL my_url = new URL("http://bot.whatismyipaddress.com");
-	         BufferedReader my_br = new BufferedReader(new
-	         InputStreamReader(my_url.openStream()));
-	         my_system_address = my_br.readLine().trim();
-	         System.out.println("The IP Address of Mobile is : " + my_system_address);
-	      }
-	      catch (Exception e){
-	         my_system_address = "Cannot Execute Properly";
-	      }
-	      return my_system_address;
+//		InetAddress my_localhost = null;
+//		try {
+//			my_localhost = InetAddress.getLocalHost();
+//		} catch (UnknownHostException e1) {
+//			// TODO Auto-generated catch block
+//			e1.printStackTrace();
+//		}
+//	      System.out.println("The IP Address of client is : " + (my_localhost.getHostAddress()).trim());
+//	      String my_system_address = "";
+//	      try{
+//	         URL my_url = new URL("http://bot.whatismyipaddress.com");
+//	         BufferedReader my_br = new BufferedReader(new
+//	         InputStreamReader(my_url.openStream()));
+//	         my_system_address = my_br.readLine().trim();
+//	         System.out.println("The IP Address of Mobile is : " + my_system_address);
+//	      }
+//	      catch (Exception e){
+//	         my_system_address = "Cannot Execute Properly";
+//	      }
+		LoginServlet f=new LoginServlet();
+		
+	      return f.username3;
 		
 	}
 	

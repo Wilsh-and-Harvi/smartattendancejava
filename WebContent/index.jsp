@@ -36,8 +36,8 @@
 					<div class="row">
 						<div class="col-md-5 detail-part">
 							<h1>Smart Attendance</h1>
-							<p>Geo-fencing Mobile App to mark attendance automatically
-								and link with RemSys.</p>
+							<p>Geo-fencing Mobile App to mark attendance inside office premises 
+								and link with RemSys Payroll Solution Software.</p>
 							<%! demo f2=new demo(); %>
 							<%! CTRCheckButton f=new CTRCheckButton(); %>
 							<%String status=f.markinmarkout(); %>
@@ -92,18 +92,26 @@
 									<%}else {%>
 									<div class="form-cover">
 
-										<h6>Login Here</h6>
+										<h5 align="center"><b>Login Here</b></h5>
 										<form action="LoginServlet" method="POST">
 											<input placeholder="Enter Username" type="text"
 												class="form-control" name="username"> <input
-												Placeholder="Enter PAssword" type="password"
+												Placeholder="Enter Password" type="password"
 												class="form-control" name="password">
-											<div class="row form-footer">
+											<div align="center" class="row form-footer">
 
-												<div class="col-md-6 button-div">
-													<button class="btn btn-primary">Login</button>
+												<div align="center" class="col-md-6 button-div">
+													<button onclick="myFunction()" class="btn btn-primary">Login</button>
+													<script>
+function myFunction() {
+	alert("Get your Location...");
+
+
+</script>
 												</div>
+												
 											</div>
+											
 										</form>
 									</div>
 									<%}%>
@@ -114,15 +122,18 @@
 								</div>
 							</div>
 
-
-
+<br><br><br><br>
+<b><p align="center">Wilsh and Harvi Pvt. Ltd.</p></b>
 						</div>
+						
 					</div>
 				</div>
+				
 			</div>
+			
 		</div>
 	</div>
-
+<>
 </body>
 <script src="assets/js/jquery-3.2.1.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
