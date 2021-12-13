@@ -104,9 +104,9 @@
 													<button onclick="myFunction()" class="btn btn-primary">Login</button>
 													<script>
 function myFunction() {
-	alert("Get your Location...");
+	alert("Getting your Location...");
 
-
+}
 </script>
 												</div>
 												
@@ -123,7 +123,7 @@ function myFunction() {
 							</div>
 
 <br><br><br><br>
-<b><p align="center">Wilsh and Harvi Pvt. Ltd.</p></b>
+<b><p align="center">Wilsh & Harvi Pvt. Ltd.</p></b>
 						</div>
 						
 					</div>
