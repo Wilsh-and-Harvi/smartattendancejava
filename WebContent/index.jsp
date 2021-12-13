@@ -54,7 +54,7 @@
 													src="assets/images/SALOGO.png" alt=""></td>
 												<td align="top">
 													<h3 align="top">
-														Welcome to
+														Welcome 
 														<%= f2.getEmployeeid() %></h3>
 												</td>
 											</tr>

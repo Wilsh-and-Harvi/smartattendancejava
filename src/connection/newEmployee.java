@@ -37,6 +37,7 @@ public class newEmployee {
 		test d=new test();
 		String macid=d.GetMacid();
 		Connection con=newEmployee.connections();
+		
 		String sql="update tblLogin set macid=? where username=?";
 		PreparedStatement psm=con.prepareStatement(sql);
 		 

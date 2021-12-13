@@ -12,6 +12,8 @@ import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
 
+import connection.getTime;
+
 
 
 
@@ -164,9 +166,8 @@ public class MarkinMarkout
 		Connection con=MarkinMarkout.connections();
 		String sql="insert into tblEmployeeattaindance(intime,employeeid, employeename, markinstatus,date) values(?,?,?,?,?)";
 		PreparedStatement psm=con.prepareStatement(sql);
-		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("h:mma");  
-		   LocalDateTime now = LocalDateTime.now();  
-		   String intime=dtf.format(now);
+		getTime time =new getTime();
+		   String intime=time.GetTime();
 		   SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");  
 		    Date date = new Date();  
 		    String date1=formatter.format(date);
@@ -195,9 +196,8 @@ public class MarkinMarkout
 		Connection con=MarkinMarkout.connections();
 		String sql="update tblEmployeeattaindance set outtime=?, markoutstatus=? where employeeid=? AND date=? ORDER BY id DESC LIMIT 1 ";
 		PreparedStatement psm=con.prepareStatement(sql);
-		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("h:mma");  
-		   LocalDateTime now = LocalDateTime.now();  
-		   String outtime=dtf.format(now);
+		getTime time =new getTime();
+		   String outtime=time.GetTime();
 		   SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");  
 		    Date date = new Date();  
 		    String date1=formatter.format(date);
