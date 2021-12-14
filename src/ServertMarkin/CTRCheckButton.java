@@ -2,25 +2,21 @@ package ServertMarkin;
 
 import java.sql.SQLException;
 
-import connection.DeviceMacidCheck;
-import connection.test;
+
+
 
 public class CTRCheckButton {
 	public String markinmarkout()
 	{
+		LoginServlet f=new LoginServlet();
 		String status1="";
-		String username="";
-		DeviceMacidCheck f=new DeviceMacidCheck();
-		try {
-			username=f.checkstatus();
-		} catch (ClassNotFoundException | SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		String username=f.username3;
+		
+		
 		if(username.equalsIgnoreCase("no"))
 		{
-			test f1=new test();
-			status1=f1.GetMacid();
+			
+			
 			
 		}
 		else

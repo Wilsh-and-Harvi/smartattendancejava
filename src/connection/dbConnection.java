@@ -33,6 +33,7 @@ public class dbConnection
 		PreparedStatement psm=con.prepareStatement(sql);
 		ResultSet rs=psm.executeQuery();
 		String status="no";
+		username="";
 		
 		try {
 			while(rs.next())
@@ -46,7 +47,7 @@ public class dbConnection
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return status;
+		return username;
 	}
 	
 

@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import connection.dbConnection;
-import connection.newEmployee;
+
 
 /**
  * Servlet implementation class LoginServlet
@@ -55,17 +55,13 @@ public class LoginServlet extends HttpServlet {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		String Status="";
+		
 		response.setContentType("text/html");
-		if(status=="yes")
+		if(status!="")
 		{
-			newEmployee ee=new newEmployee();
-			try {
-				ee.newEmp(username);
-			} catch (ClassNotFoundException | SQLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			
+			 HttpSession session = request.getSession();
+			 session.setAttribute("UserName", username);
 			response.sendRedirect("index.jsp");
 			
 			//response.sendRedirect("adminHomePage.html");
@@ -74,8 +70,8 @@ public class LoginServlet extends HttpServlet {
 		{
 			status="Login Failed";
 			request.setAttribute("myname",status);
-			request.getRequestDispatcher("index.jsp").forward(request, response); 
-			response.sendRedirect("index.jsp");
+			request.getRequestDispatcher("index.html").forward(request, response); 
+			response.sendRedirect("index.html");
 		}
 	}
 

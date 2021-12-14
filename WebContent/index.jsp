@@ -1,4 +1,5 @@
 
+<%@page import="ServertMarkin.checkSession"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@ page import="ServertMarkin.CTRCheckButton"%>
@@ -29,6 +30,9 @@
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
+
+
 	<div class="container-fluid bg-login">
 		<div class="container">
 			<div class="row">
@@ -40,6 +44,8 @@
 								and link with RemSys Payroll Solution Software.</p>
 							<%! demo f2=new demo(); %>
 							<%! CTRCheckButton f=new CTRCheckButton(); %>
+							
+							
 							<%String status=f.markinmarkout(); %>
 						</div>
 						<div class="col-md-7 logn-part">
@@ -105,8 +111,9 @@
 													<script>
 function myFunction() {
 	alert("Getting your Location...");
-
+	
 }
+
 </script>
 												</div>
 												
@@ -133,7 +140,8 @@ function myFunction() {
 			
 		</div>
 	</div>
-<>
+
+
 </body>
 <script src="assets/js/jquery-3.2.1.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
